@@ -1,6 +1,6 @@
 /**
  * Exercício de Diagnóstico - Aula 02: Promises e Async/Await
- * Aluno: SEUNOME
+ * Aluno: Mateus Correa
  */
 
 // 1. O que é uma Promise em JavaScript e quais são os seus 3 estados possíveis?
