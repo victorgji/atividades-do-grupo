@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Store</title>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .tela {
+            width: min(100% - 32px, 1200px);
+            margin: 0 auto;
+            padding: 32px 0;
+        }
+
+        .cabecalho {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #333;
+            margin-bottom: 32px;
+        }
+
+        .cabecalho h1 {
+            color: #9d4edd;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .botao {
+            padding: 10px 20px;
+            background-color: #9d4edd;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .botao:hover {
+            background-color: #7b2cbf;
+        }
+
+        .lista {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 24px;
+        }
+
+        .cartao {
+            background: #1e1e1e;
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            border: 1px solid #2a2a2a;
+            transition: transform 0.2s ease;
+        }
+
+        .cartao:hover {
+            transform: translateY(-5px);
+            border-color: #9d4edd;
+        }
+
+        .cartao h2 {
+            font-size: 1.25rem;
+            color: #fff;
+        }
+
+        .genero {
+            font-size: 0.85rem;
+            color: #a0a0a0;
+            background: #2a2a2a;
+            padding: 4px 8px;
+            border-radius: 4px;
+            align-self: flex-start;
+        }
+
+        .preco {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #10b981;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel">
+        const jogos = [
+            { id: 1, titulo: "Cyberpunk 2077", genero: "RPG de Ação", preco: 199.90 },
+            { id: 2, titulo: "Elden Ring", genero: "RPG / Souls-like", preco: 249.90 },
+            { id: 3, titulo: "Spider-Man 2", genero: "Aventura", preco: 349.90 },
+            { id: 4, titulo: "Red Dead Redemption 2", genero: "Mundo Aberto", preco: 149.90 },
+            { id: 5, titulo: "God of War Ragnarök", genero: "Ação / Aventura", preco: 299.90 }
+        ];
+
+        function Cabecalho() {
+            return (
+                <header className="cabecalho">
+                    <div>
+                        <h1>Nexus Store</h1>
+                        <p>O teu portal para novos mundos.</p>
+                    </div>
+                    <button className="botao">Ver Carrinho</button>
+                </header>
+            );
+        }
+
+        function CartaoJogo({ titulo, genero, preco }) {
+            return (
+                <article className="cartao">
+                    <span className="genero">{genero}</span>
+                    <h2>{titulo}</h2>
+                    <span className="preco">€ {preco.toFixed(2).replace('.', ',')}</span>
+                    <button className="botao">Comprar</button>
+                </article>
+            );
+        }
+
+        function ListaDeJogos({ itens }) {
+            return (
+                <section className="lista">
+                    {itens.map((jogo) => (
+                        <CartaoJogo key={jogo.id} {...jogo} />
+                    ))}
+                </section>
+            );
+        }
+
+        function App() {
+            return (
+                <main className="tela">
+                    <Cabecalho />
+                    <ListaDeJogos itens={jogos} />
+                </main>
+            );
+        }
+
+        ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+    </script>
+</body>
+</html>
