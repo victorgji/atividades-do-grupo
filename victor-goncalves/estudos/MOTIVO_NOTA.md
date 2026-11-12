@@ -1,9 +1,35 @@
-Victor, tua nota ficou 0,00 de 4,00 no primeiro momento. Ainda tem a avaliação prática, que vale 1 ponto, então a nota final do momento sai depois dela.
+# Motivo da nota: Victor
 
-Aulas: 0,00 de 2,00. Cada aula vale 0,40, e aula incompleta ou que não abre vale metade.
+Victor, tua nota ficou **0,00 de 4,00** no primeiro momento. Ainda tem a avaliação prática, que vale 1 ponto, então a nota final do momento sai depois dela.
 
-Procurei na pasta do grupo, nos forks, no teu perfil e nos teus repositórios (pescadores-de-algoritimos e os outros) e não achei nenhuma das cinco aulas. O que tem no teu perfil são projetos teus de outras coisas (site com PHP e banco, páginas de linguagens), que não são os exercícios da disciplina. Aulas 01 a 05 valeram 0,00. Tu fizeste os merges dos colegas no repositório do grupo em 06/11, mas fazer merge não conta como entrega tua.
+| Parte | Nota |
+|---|---|
+| Aulas 01 a 05 | 0,00 de 2,00 |
+| Atividade da Aula 05 | 0,00 de 1,00 |
+| Caderno | 0,00 de 1,00 |
 
-Atividade da Aula 05 (a tela do grupo em componentes): 0,00 de 1,00. O pedido era um componente teu, com props, commit teu e um registro de 3 linhas. Sem entrega.
+Cada aula vale 0,40; sem entrega vale 0,00. Não houve desconto por cópia.
 
-Caderno: 0,00 de 1,00. Não tenho caderno registrado.
+## Onde procurei
+
+Pasta do grupo (`victor-goncalves/estudos`), os forks dos colegas, o teu perfil e os teus repositórios (`pescadores-de-algoritimos` e os outros). No teu perfil tem projetos teus de outras coisas (site com PHP e banco, páginas de linguagens), que não são os exercícios da disciplina.
+
+## Aulas
+
+| Aula | O que era | Situação | Custo |
+|---|---|---|---|
+| 01 | 12 exercícios de JavaScript moderno | Sem arquivo | -0,40 |
+| 02 | 10 perguntas de Promise e async/await | Sem arquivo | -0,40 |
+| 03 | Lista de tarefas em JavaScript puro | Sem arquivo | -0,40 |
+| 04 | React por CDN com App, Cabecalho, três Cartao e Lista | Sem arquivo | -0,40 |
+| 05 | Chaves, ternário e className | Sem arquivo | -0,40 |
+
+Em 06/11 tu fizeste os merges dos colegas no repositório do grupo. Merge não conta como entrega tua, porque o código é deles.
+
+## Atividade da Aula 05: tela do grupo em componentes (0,00 de 1,00)
+
+Sem entrega. Custo: -1,00.
+
+## Caderno (0,00 de 1,00)
+
+Não tenho caderno registrado. Custo: -1,00.
