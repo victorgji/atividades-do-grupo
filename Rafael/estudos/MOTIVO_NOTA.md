@@ -1,74 +1,50 @@
-# Motivo da nota: Rafael
+# Motivo da nota Rafael
 
-Rafael, tua nota ficou **3,80 de 4,00** no primeiro momento. Ainda tem a avaliação prática, que vale 1 ponto, então a nota final do momento sai depois dela.
+Rafael, fechei tua nota. O primeiro momento ficou em **4,80 de 5,00**, e com a prova regimental o total é **8,70 de 10,00**.
 
 | Parte | Nota |
 |---|---|
-| Aulas 01 a 05 | 2,00 de 2,00 |
+| Aulas 01 a 05 no git | 3,00 de 3,00 |
 | Atividade da Aula 05 | 0,80 de 1,00 |
 | Caderno | 1,00 de 1,00 |
+| **Primeiro momento** | **4,80 de 5,00** |
+| Prova regimental, segundo momento | 3,90 |
+| **Total** | **8,70 de 10,00** |
 
-Cada aula vale 0,40; aula incompleta ou que não abre vale 0,20; sem entrega vale 0,00. Não houve desconto por cópia.
+Cada aula vale 0,60. Aula incompleta ou que não abre vale 0,30, e sem entrega vale zero. A atividade e o caderno valem 1,00 cada. Não descontei nada por cópia.
 
-## Aula 01: JavaScript moderno (0,40 de 0,40)
+Olhei tua pasta no repositório do grupo (`victorgji/atividades-do-grupo`), os forks e os repositórios pessoais, arquivo por arquivo, e vi quem fez cada commit. Considerei tudo o que foi entregue até 21/11, mesmo atrasado.
 
-Arquivo: `Rafael/estudos/js-moderno-rafael.js`
+Os pontos que faltaram no primeiro momento foram 0,20 na atividade. Cada motivo está logo abaixo.
 
-| Item | Situação | Custo |
-|---|---|---|
-| 1, 2, 4, 5, 6, 7, 8, 12 (map, filter, desestruturação, seta, spread, estoque) | Feitos e corretos | 0 |
-| 3, 9, 10, 11 (respostas escritas) | Respondidas. A 9 explica que as chaves tiram o retorno implícito, a 11 explica a mutação do push | 0 |
+## Aula 01, JavaScript moderno (0,60 de 0,60)
 
-## Aula 02: Promise e async/await (0,40 de 0,40)
+Está tudo certo e funciona. O arquivo é `Rafael/estudos/js-moderno-rafael.js`.
 
-Arquivo: `Rafael/estudos/promises-async-rafael.js`
+## Aula 02, Promise e async/await (0,60 de 0,60)
 
-| Item | Situação | Custo |
-|---|---|---|
-| 1 a 10 | Todas respondidas, com o async/await da 3, o `buscarProduto` com setTimeout da 6, o `await resposta.json()` da 8 e a explicação do `map(async ...)` na 10 | 0 |
+Está tudo certo e funciona. O arquivo é `Rafael/estudos/promises-async-rafael.js`.
 
-## Aula 03: lista em JavaScript puro (0,40 de 0,40)
+## Aula 03, lista em JavaScript puro (0,60 de 0,60)
 
-Arquivo: `Rafael/estudos/aula03-rafael/index.html`
+Está tudo certo e funciona. O arquivo é `Rafael/estudos/aula03-rafael/index.html`.
 
-| Item | Situação | Custo |
-|---|---|---|
-| Contador, campo, botão Adicionar, `desenhar()` | Funcionam. O contador é atualizado na linha 32 | 0 |
-| Experimento 2 (input dentro de cada item) | Feito, linha 26 | 0 |
-| Registro de 3 linhas | Não encontrei | 0 (o laboratório funcionando fecha a aula) |
+## Aula 04, React por CDN (0,60 de 0,60)
 
-## Aula 04: React por CDN (0,40 de 0,40)
+Está tudo certo e funciona. O arquivo é `Rafael/estudos/aula04-rafael/index.html`.
 
-Arquivo: `Rafael/estudos/aula04-rafael/index.html`
+## Aula 05, JSX com chaves, ternário e className (0,60 de 0,60)
 
-| Item | Situação | Custo |
-|---|---|---|
-| App, Cabecalho, três Cartao, Lista com map e key | Página abre e renderiza | 0 |
+Está tudo certo e funciona. O arquivo é `Rafael/estudos/aula04-rafael/index.html`.
 
-## Aula 05: chaves, ternário e className (0,40 de 0,40)
+## Atividade da Aula 05, tela do grupo em componentes (0,80 de 1,00)
 
-Arquivos: `Rafael/estudos/aula04-rafael/index.html` e `Rafael/estudos/aula05-rafael/Tela-Da-Loja.js`
-
-| Item | Situação | Custo |
-|---|---|---|
-| `{projeto}`, ternário (feita ou pendente), className | Presentes na página | 0 |
-| Tela da loja em JSX | Convertida, com alt nas imagens | 0 |
-
-## Atividade da Aula 05: tela do grupo em componentes (0,80 de 1,00)
-
-Arquivo: `Rafael/estudos/Atv-05/index.html` (commit teu, 06/11)
-
-| Exigência | Situação | Custo |
-|---|---|---|
-| Componente com props | `CartaoJogo` recebe `titulo`, `genero` e `preco` | 0 |
-| Lista com map e key | `ListaDeJogos` | 0 |
-| Página abre e funciona | Sim | 0 |
-| Commit próprio | Sim | 0 |
-| Comentário `// MEU COMPONENTE` marcando o teu componente | Não tem | -0,20 (os dois itens juntos) |
-| Registro de 3 linhas (qual componente fizeste, o mais difícil, como se encaixa na tela do grupo) | Não tem | (incluído na linha acima) |
-
-Para fechar: colocar `// MEU COMPONENTE` em cima do `CartaoJogo` e criar o `registro.md` com as 3 linhas.
+O `CartaoJogo` em `Rafael/estudos/Atv-05/index.html` recebe `titulo`, `genero` e `preco`, a lista usa `map` e `key`, a página abre e o commit é teu. Faltaram o `// MEU COMPONENTE` e o registro de 3 linhas, por isso valeu 0,80. Para recuperar, coloca `// MEU COMPONENTE` em cima do `CartaoJogo` e cria o `registro.md` com as 3 linhas.
 
 ## Caderno (1,00 de 1,00)
 
-Entregue completo.
+O caderno está completo.
+
+## Nota fechada
+
+As notas estão fechadas. Tudo o que custou ponto está explicado em cada parte, e o que eu escrevi em "para recuperar" é o que vale estudar para a recuperação.

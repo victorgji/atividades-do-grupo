@@ -1,62 +1,50 @@
-# Motivo da nota: Thiago
+# Motivo da nota Thiago
 
-Thiago, tua nota ficou **1,00 de 4,00** no primeiro momento. Ainda tem a avaliação prática, que vale 1 ponto, então a nota final do momento sai depois dela.
+Thiago, fechei tua nota. O primeiro momento ficou em **1,50 de 5,00**, e com a prova regimental o total é **2,90 de 10,00**.
 
 | Parte | Nota |
 |---|---|
-| Aulas 01 a 05 | 1,00 de 2,00 |
+| Aulas 01 a 05 no git | 1,50 de 3,00 |
 | Atividade da Aula 05 | 0,00 de 1,00 |
 | Caderno | 0,00 de 1,00 |
+| **Primeiro momento** | **1,50 de 5,00** |
+| Prova regimental, segundo momento | 1,40 |
+| **Total** | **2,90 de 10,00** |
 
-Cada aula vale 0,40; aula incompleta ou que não abre vale 0,20; sem entrega vale 0,00. Não houve desconto por cópia.
+Cada aula vale 0,60. Aula incompleta ou que não abre vale 0,30, e sem entrega vale zero. A atividade e o caderno valem 1,00 cada. Não descontei nada por cópia.
 
-Nada disso está na pasta do grupo. As aulas estão no teu repositório pessoal (`tulyo-zynga123/ino_thiagod`), e foi lá que eu fui buscar.
+Olhei tua pasta no repositório do grupo (`victorgji/atividades-do-grupo`), os forks e os repositórios pessoais, arquivo por arquivo, e vi quem fez cada commit. Considerei tudo o que foi entregue até 21/11, mesmo atrasado.
 
-## Aula 01: JavaScript moderno (0,40 de 0,40)
+Os pontos que faltaram no primeiro momento foram 0,30 na Aula 03, 0,60 na Aula 04, 0,60 na Aula 05, 1,00 na atividade e 1,00 no caderno. Cada motivo está logo abaixo.
 
-Arquivos: `estudos/aula01/ex01.js` a `ex12.js` (29/10)
+## Aula 01, JavaScript moderno (0,60 de 0,60)
 
-| Item | Situação | Custo |
-|---|---|---|
-| ex01 (dobrar com map) | **Não roda.** A linha é `const nums =` sem o array depois do sinal de igual. A resposta `nums.map(n => n * 2)` está certa, falta `[1, 2, 3, 4]` | 0 |
-| ex02 (filtrar pares) | **Não roda.** Mesmo problema: `const numeros =` sem o array | 0 |
-| ex03, ex09, ex10, ex11 (respostas escritas) | Respondidas | 0 |
-| ex04 a ex08, ex12 | Presentes | 0 |
+Está tudo certo e funciona. O arquivo é `estudos/aula01/ex01.js`.
 
-A aula valeu 0,40 porque os 12 itens estão entregues e a lógica dos dois com problema está certa. Para fechar: colocar `[1, 2, 3, 4]` depois do `=` nos dois.
+## Aula 02, Promise e async/await (0,60 de 0,60)
 
-## Aula 02: Promise e async/await (0,40 de 0,40)
+Está tudo certo e funciona. O arquivo é `estudos/aula02/ex01.js`.
 
-Arquivos: `estudos/aula02/ex01.js` a `ex10.js` (29/10)
+## Aula 03, lista em JavaScript puro (0,30 de 0,60)
 
-| Item | Situação | Custo |
-|---|---|---|
-| ex01 a ex10 | Todas presentes, com o async/await (ex03), o `buscarProduto` com setTimeout (ex06) e o erro do `await` em função comum (ex07) | 0 |
+A página `estudos/aula03/index.html` tem lista, campo, botão Adicionar, `desenhar()`, marcar como feita e remover, e tudo funciona. Mas não tem o contador de tarefas, nenhum elemento mostra quantas tarefas existem, e os experimentos e o registro também não estão. A aula valeu 0,30. Para recuperar, coloca um `<p id="contador">` e atualiza o texto dentro do `desenhar()`, e responde os experimentos.
 
-## Aula 03: lista em JavaScript puro (0,20 de 0,40)
+## Aula 04, React por CDN (0,00 de 0,60)
 
-Arquivo: `estudos/aula03/index.html`
+Não achei nenhum arquivo, nem na pasta do grupo nem no teu repositório pessoal.
 
-| Item | Situação | Custo |
-|---|---|---|
-| Lista, campo `novaTarefa`, botão Adicionar, `desenhar()`, marcar como feita, remover | Funcionam | 0 |
-| Contador de tarefas | Não tem. Não existe nenhum elemento nem linha que mostre quantas tarefas há | -0,20 |
-| Experimentos e registro de 3 linhas | Não encontrei | (já entra no incompleto) |
+## Aula 05, JSX com chaves, ternário e className (0,00 de 0,60)
 
-Para fechar: um `<p id="contador">` no HTML e, dentro do `desenhar()`, `contador.textContent = tarefas.length + " tarefas"`.
+Não achei essa aula na tua pasta, no repositório do grupo nem nos teus repositórios pessoais, por isso ficou sem nota.
 
-## Aula 04: React por CDN (0,00 de 0,40)
+## Atividade da Aula 05, tela do grupo em componentes (0,00 de 1,00)
 
-Não encontrei nenhum arquivo, nem na pasta do grupo nem no teu repositório pessoal. Custo: -0,40.
-
-## Aula 05: chaves, ternário e className (0,00 de 0,40)
-
-Não encontrei nenhum arquivo. Custo: -0,40.
-
-## Atividade da Aula 05: tela do grupo em componentes (0,00 de 1,00)
-
-Sem entrega. Custo: -1,00.
+Não achei entrega da atividade, nem na pasta do grupo nem no teu repositório pessoal. Para recuperar, faz um componente teu com props na tela do grupo, marca com `// MEU COMPONENTE` e escreve as 3 linhas.
 
 ## Caderno (0,00 de 1,00)
 
-Não tenho caderno registrado. Custo: -1,00.
+Não achei caderno registrado.
+
+## Nota fechada
+
+As notas estão fechadas. Tudo o que custou ponto está explicado em cada parte, e o que eu escrevi em "para recuperar" é o que vale estudar para a recuperação.
